@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-25 00:24+0200\n"
+"PO-Revision-Date: 2011-01-25 00:29+0200\n"
+"Last-Translator: Everest <thinkoutofthecubicle@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\about.html.py:14
+msgid "The company services include the total hydroelectric power supplies as well as Group A electrical contractors."
+msgstr "Yhtiön palveluihin kuuluu koko vesivoiman hankintaan sekä konsernin sähköurakoitsijat."
+
+#: .\templates\about.html.py:16
+msgid "Hydroelectric power stations"
+msgstr "Vesivoimalat"
+
+#: .\templates\about.html.py:17
+msgid "M and S Oy Power Ltd specializes in small hydro plants.  Sometimes the plants are built the farm already in the old water plant buildings, sometimes the whole plant may be a new one. The cheapest solution for a new power plant is a container plant Power plants can operate electric utilities online or on their own so-called island operation. Enetwork facility can be rented and move it through the electricity for their own use. Powered turbines are operating putkiturbiineita which are manufactured in Finland the impeller blades are either fixed or adjustable. To adjust the turbine vanes is stationary. Generators are normally used with brushless excitation and voltage control."
+msgstr "M ja S Oy Power Oy on erikoistunut pienvesivoimalat. Joskus voimalat rakennetaan tilalla jo vanhan vesitornin rakennukset, joskus koko kasvi voi olla uusi. edullisin ratkaisu Uuden voimalaitoksen on kontti kasvi voimalaitokset voivat toimia sähkölaitosten verkossa tai omalla ns saaren toimintaa. E-verkon laitos voi vuokrata ja siirtää sitä kautta sähköä omaan käyttöön. Powered turbiinit toimivat putkiturbiineita jotka on valmistettu Suomessa, juoksupyörän siivet ovat joko kiinteä tai säädettävä. Voit säätää turbiinin siivet on paikallaan. Generaattorit ovat yleensä käytetään Harjaton magnetointi ja jännitteen."
+
+#: .\templates\about.html.py:21
+msgid "Container Power Station"
+msgstr "Kontti Voimala"
+
+#: .\templates\about.html.py:23
+msgid "The newest power plant solution is a container plant.  In the transport container plant is the engine room. Dams waterways and the foundation is completed after which the power unit attached to the finished foundation. Container Power Units can be connected in parallel as necessary the use of power needed and the amount of water."
+msgstr "Uusin voimalaratkaisu on kontti kasvi. Liikenteen säiliö tehdas on konehuoneessa. Padot, vesistöt ja säätiö on valmis, jonka jälkeen virtalähde kiinni valmiin pohjan. Kontti Voimala Yksiköt voidaan kytkeä rinnan tarvittaessa käyttöön tarvittava teho ja vesimäärä."
+
+#: .\templates\about.html.py:26
+msgid "Container power plant specifications"
+msgstr "Kontti Voimala tekniset tiedot"
+
+#: .\templates\about.html.py:29
+msgid "Height of fall"
+msgstr "Putoamiskorkeus"
+
+#: .\templates\about.html.py:30
+msgid "Output"
+msgstr "Ulostulo"
+
+#: .\templates\about.html.py:31
+msgid "Cost estimates without a foundation"
+msgstr "Kustannusarviot ilman perustusta"
+
+#: .\templates\base.html.py:60
+msgid "Home"
+msgstr "Etusivu"
+
+#: .\templates\base.html.py:61
+msgid "About"
+msgstr "Tietoja"
+
+#: .\templates\base.html.py:62
+msgid "Contact"
+msgstr "Yhteystiedot"
+
+#: .\templates\index.html.py:5
+msgid "Clean hydropower."
+msgstr "Puhdas vesivoima."
+
+#: .\templates\index.html.py:6
+msgid "M and S Power Ltd. plans and executes small hydro power plants. We have experience in small hydro power stations in the design and construction since 1982."
+msgstr "M ja S Power Ltd suunnittelee ja toteuttaa pienvesivoimasta. Meillä on kokemusta pienistä vesivoimalat suunnittelussa ja rakentamisessa vuodesta 1982."
+
+#: .\templates\index.html.py:8
+msgid "Contact us and we will sort the best option for your plants."
+msgstr "Ota yhteyttä ja me tavallaan paras vaihtoehto teidän kasveja."
+

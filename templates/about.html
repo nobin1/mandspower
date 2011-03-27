@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{%  load i18n %}
+{% block content %}
+<CENTER>
+	<TABLE WIDTH=670>
+		
+
+		<TR>
+		<TD>
+
+
+
+		<br><br>
+		<P>{% trans 'The company services include the total hydroelectric power supplies as well as Group A electrical contractors.' %}</P>
+
+		<H3>{% trans 'Hydroelectric power stations' %}</H3>
+		<P ALIGN="justify">{% trans 'M and S Oy Power Ltd specializes in small hydro plants.  Sometimes the plants are built the farm already in the old water plant buildings, sometimes the whole plant may be a new one. The cheapest solution for a new power plant is a container plant Power plants can operate electric utilities online or on their own so-called island operation. Enetwork facility can be rented and move it through the electricity for their own use. Powered turbines are operating putkiturbiineita which are manufactured in Finland the impeller blades are either fixed or adjustable. To adjust the turbine vanes is stationary. Generators are normally used with brushless excitation and voltage control.' %}</P>
+		<br><br>
+		<p></p>
+		<img hspace="20" width="300" align="right" src="/static/Konttivoimala.jpg" alt="Konttivoimala">
+		<H3>{% trans 'Container Power Station' %}</H3>
+
+		<P ALIGN="justify">{% trans 'The newest power plant solution is a container plant.  In the transport container plant is the engine room. Dams waterways and the foundation is completed after which the power unit attached to the finished foundation. Container Power Units can be connected in parallel as necessary the use of power needed and the amount of water.' %}</P>
+
+
+		<P><B>{% trans 'Container power plant specifications' %}</B></P>
+
+		<ul>
+			<li>{% trans 'Height of fall' %}: 7 meters</li>
+			<li>{% trans 'Output' %}: 60 kw</li>
+			<li>{% trans 'Cost estimates without a foundation' %}: 60 000</li>
+
+		</ul>
+
+		</TD>
+		</TR>
+		
+	</TABLE>
+</CENTER>
+{% endblock %}

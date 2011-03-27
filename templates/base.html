@@ -1,0 +1,86 @@
+{%  load i18n %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	
+	<title>M&amp;S Oy Power Limited</title>
+	
+	<link rel='stylesheet' type='text/css' href='/static/style.css' />
+	
+	<!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    <script type='text/javascript' src='/static/jquery.js'></script>
+    <script type='text/javascript' src='/static/jquery.ba-hashchange.min.js'></script>
+    <script type='text/javascript' src='/staticj/dynamicpage.js'></script>
+</head>
+
+<body>
+
+    
+
+	<div id="page-wrap">
+
+        <header>
+        	
+		<div id="topheader">
+				
+			<div class="container">
+				
+			   <img src="image.png" />
+			   <div class="overlay">&nbsp;</div>
+			   <div class="text">M&amp;S Oy  Power Limited </div> 
+			</div>
+			
+		<div id="lang">
+				<table>
+				<tr><td><form action="/i18n/setlang/" method="post" id="form_en"><div style="display:none"><input type="hidden" name="language" value="en" /><input name="next" type="hidden" value="/" /></div></form>
+		          <a class=""  href="#" onclick="document.getElementById('form_en').submit();">
+		            <img src="/static/en.png" BORDER=0  alt="Finnish" />
+		          </a> </td>
+		          
+		        
+		         
+		         <td><form action="/i18n/setlang/" method="post" id="form_fi"><div style="display:none"><input type="hidden" name="language" value="fi" /><input name="next" type="hidden" value="/" /></div></form>
+		          <a class="selected"  href="#" onclick="document.getElementById('form_fi').submit();">
+		            <img src="/static/fi.png" BORDER=0 alt="English" />
+		          </a></td></tr>
+		         </table>
+			</div>
+	
+			
+
+	</div>
+	
+		
+		  <nav>
+		      <ul class="group">
+		          <li><a href="/">{% trans 'Home' %}</a></li>
+		          <li><a href="/about/">{% trans 'About' %}</a></li>
+		          <li><a href="/contact/">{% trans 'Contact' %}</a></li>
+		      </ul>
+		  </nav>
+		</header>
+		
+		<section id="main-content">
+		<div id="guts">
+		
+		 {% block content %}
+		{% endblock %}
+		</div>
+		</section>
+		
+	</div>
+	
+	<footer>
+	
+	</footer>
+
+	
+
+</body>
+
+</html>
